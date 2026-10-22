@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+dist*/
+portable_config/
+*.egg-info/
+*.log
+artifacts/*
+!artifacts/test-results.xml
+!artifacts/test-output.txt
+!artifacts/package-verification.json
+!artifacts/tool-download-check.json
+!artifacts/preview-benchmark/
+artifacts/preview-benchmark/*
+!artifacts/preview-benchmark/before.json
+!artifacts/preview-benchmark/after.json

@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "version": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffmpeg": "D:\\程序开发\\ImageFlow\\artifacts\\download-check\\tools\\ffmpeg-60f467265b1e\\bin\\ffmpeg.exe",
+  "ffprobe": "D:\\程序开发\\ImageFlow\\artifacts\\download-check\\tools\\ffmpeg-60f467265b1e\\bin\\ffprobe.exe",
+  "elapsed_seconds": 148.234
+}

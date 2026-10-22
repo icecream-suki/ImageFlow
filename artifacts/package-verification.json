@@ -1,0 +1,26 @@
+{
+  "offscreen": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "gui": true,
+    "conversion": "passed: WebP to PNG, Unicode path and transparent pixel",
+    "autosave_routing": true,
+    "ffmpeg": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "webm_preview": "passed: first frame, animation and transparent pixel",
+    "exit_code": 0,
+    "elapsed_seconds": 1.235,
+    "minimal_path": "C:\\WINDOWS\\System32"
+  },
+  "windows": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "gui": true,
+    "conversion": "passed: WebP to PNG, Unicode path and transparent pixel",
+    "autosave_routing": true,
+    "ffmpeg": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "webm_preview": "passed: first frame, animation and transparent pixel",
+    "exit_code": 0,
+    "elapsed_seconds": 1.687,
+    "minimal_path": "C:\\WINDOWS\\System32"
+  }
+}

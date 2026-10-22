@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imageflow-desktop"
+version = "1.1.0"
+description = "Local, portable FFmpeg image workflow for Windows"
+requires-python = ">=3.12"
+dependencies = ["PySide6-Essentials>=6.8,<7", "Pillow>=11,<14"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pyinstaller>=6,<7"]
+
+[project.gui-scripts]
+imageflow = "imageflow.app:main"
+
+[tool.setuptools.packages.find]
+include = ["imageflow*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: requires real FFmpeg and FFprobe", "gui: Qt offscreen UI tests"]

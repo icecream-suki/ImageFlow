@@ -1,0 +1,3 @@
+# QtCore / QtGui / QtWidgets only; no WebEngine, Multimedia, QML or network UI.
+PySide6-Essentials==6.12.0
+Pillow==13.0.0
